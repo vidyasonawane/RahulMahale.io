@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rahul Mahale</title>
+    <link>http://www.example.com/</link>
+    <description>Recent content on Rahul Mahale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>http://www.example.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/about/</guid>
+      <description>A passionate software engineer and open-source enthusiast.
+Currently working as Senior DevOps Engineer at BigBinary. Strong believer of Infrastructure-as-a-code principal.
+Proficient in automating infrastructure using Chef, Ansible, Terraform, Cloud-Formation and usually uses Scripting languages like Bash, Ruby and Python. Recently working mostly on Containers and orchestration of containers in the Cloud/On-premise environments and proficient in implementing Kubernetes and Rancher clusters at scale</description>
+    </item>
+    
+  </channel>
+</rss>
