@@ -1,9 +1,8 @@
 +++ 
 date = "2013-08-27"
 title = "Databases On Linux"
-slug = "Databases On Linux" 
-tags = ["Database","Linux"]
-categories = []
+tags = []
+categories = ["technical"]
 
 +++
 **Database Management Systems**

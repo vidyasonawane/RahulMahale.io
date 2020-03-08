@@ -91,31 +91,33 @@ disqusShortname = "yourdiscussshortname"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "About"
+            name = "/About"
             weight = 1
             url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Technical Posts"
+            name = "/Blogs"
             weight = 2
-            url = "posts/"
+            url = "blogs/"
+
+            #[[languages.en.menu.main]]
+            #name = "Social Posts"
+            #weight = 3
+            #url = "social/"
 
             [[languages.en.menu.main]]
-            name = "Social Posts"
+            name = "/Workshops"
             weight = 3
-            url = "social/"
-
-            [[languages.en.menu.main]]
-            name = "Workshops"
-            weight = 4
             url = "workshops/"
 
             [[languages.en.menu.main]]
-            name = "Gallery"
+            name = "/Talks"
+            weight = 4
+            url = "talks/"
+
+            [[languages.en.menu.main]]
+            name = "/Gallery"
             weight = 5
             url = "gallery/"
 
-            [[languages.en.menu.main]]
-            name = "Talks"
-            weight = 6
-            url = "talks/"
+        

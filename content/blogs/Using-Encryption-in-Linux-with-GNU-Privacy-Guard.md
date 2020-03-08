@@ -2,7 +2,7 @@
 date = "2013-08-27"
 title = "Using Encryption in Linux with GNU Privacy Guard(GPG)"
 tags = []
-categories = []
+categories = ["technical"]
 +++
 
 **GNU Privacy Guard**

@@ -2,7 +2,7 @@
 date = "2014-09-07"
 title = "Book Review: I want to do Project tell me What to do"
 tags = []
-categories = []
+categories = ["social"]
 +++
 
 It was February 2nd 2013 when I first time attended the Shakthi ‘s presentation _“I want to do Project tell me What to do”[1]_ at SITRC Nashik in a Fedora Workshop. I was motivated and re-energize to throw myself in the beautiful Open-Source World. A average student from average Engineering College of University of Pune where Environment and the background of college and city doesn’t shows Open-Source Culture. But after attending the presentation of Shakthi I started my new life and decided to work in open-source Technologies and contribute to Open-source community. Now after a year and half I had the book in my hand titled _“I want 2 do Project tell me What 2 do”_. After receiving my parcel in morning I read the complete book in a day and I still found myself newbie in open-source community and enjoyed each and every guideline.
