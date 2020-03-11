@@ -3,7 +3,7 @@ date = "2013-09-02"
 title = "[Event Report] Fedora Workshop Conducted at MMCOE Pune"
 slug = "[Event Report] Fedora Workshop Conducted at MMCOE Pune" 
 tags = []
-categories = []
+categories = ["workshops"]
 
 +++
 

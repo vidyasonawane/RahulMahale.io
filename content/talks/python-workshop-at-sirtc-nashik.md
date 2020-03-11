@@ -3,7 +3,7 @@ date = "2013-09-01"
 title = "One day Python Workshop Conducted at SITRC Nashik."
 slug = "One day Python Workshop Conducted at SITRC Nashik." 
 tags = []
-categories = []
+categories = ["workshops"]
 
 +++
 

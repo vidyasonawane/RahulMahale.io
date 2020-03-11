@@ -106,14 +106,14 @@ disqusShortname = "yourdiscussshortname"
             #url = "social/"
 
             [[languages.en.menu.main]]
-            name = "/Workshops"
-            weight = 3
-            url = "workshops/"
-
-            [[languages.en.menu.main]]
             name = "/Talks"
-            weight = 4
+            weight = 3
             url = "talks/"
+
+            #[[languages.en.menu.main]]
+            #name = "/Talks"
+            #weight = 
+            #url = "talks/"
 
             [[languages.en.menu.main]]
             name = "/Gallery"

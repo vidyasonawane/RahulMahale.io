@@ -1,8 +1,8 @@
 +++
 date = "2013-08-22"
 title = "How pointers are related to array ?"
-tags = []
-categories = ["technical"]
+tags = ["Pointers","Array"]
+categories = ["technical blogs"]
 +++
 
 __Part 1:__

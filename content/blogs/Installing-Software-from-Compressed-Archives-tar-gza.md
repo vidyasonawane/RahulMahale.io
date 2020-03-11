@@ -1,8 +1,8 @@
 +++
 date = "2013-12-10"
 title = "Installing Software from Compressed Archives: .tar.gza."
-tags = []
-categories = ["technical"]
+tags = ["Linux"]
+categories = ["technical blogs"]
 +++
 
 Linux software applications in the form of source code are available at different sites on the Internet. You can download any of this software and install it on your system. Recent releases are often available in the form of compressed archive files. Applications will always be downloadable as compressed archives if they don’t have an RPM version. This is particularly true for the recent versions of GNOME or KDE packages. RPM packages are only intermittently generated.

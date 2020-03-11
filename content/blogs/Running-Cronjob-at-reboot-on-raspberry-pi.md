@@ -1,8 +1,8 @@
 +++
 date = "2014-09-03"
 title = "[Solved] Running Cron job at reboot on Raspberry Pi in Debian(Wheezy) and Raspbian."
-tags = []
-categories = ["technical"]
+tags = ["Raspbian","Cron job"]
+categories = ["technical blogs"]
 +++
 
 Hello Pi users,

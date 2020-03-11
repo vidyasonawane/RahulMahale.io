@@ -1,8 +1,8 @@
 +++
 date = "2013-11-05"
 title = "Creating a new Disk partition and formatting it in Linux"
-tags = []
-categories = ["technical"]
+tags = ["Disk Partition","Linux"]
+categories = ["technical blogs"]
 +++
 
 __Disk utility__ can also be used to create new partitions and prepare them for use. Once a partition has been created, it must be formatted with a file system before it can be used. The standard file system used in Red Hat Enterprise Linux is ext4,the _Fourth Extended File system_.

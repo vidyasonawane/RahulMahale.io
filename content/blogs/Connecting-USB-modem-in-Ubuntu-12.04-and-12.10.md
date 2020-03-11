@@ -1,8 +1,8 @@
 +++
 date = "2013-08-14"
 title = "[Solved]Connecting USB modem in Ubuntu 12.04 and 12.10."
-tags = []
-categories = ["technical"]
+tags = ["Ubuntu","Linux","USB Modem"]
+categories = ["technical blogs"]
 +++
 
 Hi Ubuntu Users, you might just install the newly fresh Ubuntu 12.04 or Ubuntu 12.10, but you might not get the connection to internet by using USB modem. You can’t directly connect internet connection by just plugging USB device and setting the internet connection. Ubuntu developers and Canonical Community didn’t notice the small bug of network connection manager, the problem is that modem does not get detected, so we can’t setup to the internet settings. So in this blog I will be publishing a very simple technique to connect to the Internet connection by using USB modem.
