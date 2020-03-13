@@ -5,7 +5,7 @@ tags = ["Linux"]
 categories = ["technical blogs"]
 +++
 
-Hi Linux Users I will elaborate some basic tricks to know your CPU configuration on your Linux System. Many times I have come across a unique question from Linux Users that how should I know that I am using 32 bit CPU/OS or 64 bit CPU/OS? Definitely I am here to know you answer of this question but before that we have to understand some points they are.
+Hi, Linux Users I will elaborate some basic tricks to know your CPU configuration on your Linux System. Many times I have come across a unique question from Linux Users that how should I know that I am using 32 bit CPU/OS or 64 bit CPU/OS? Definitely, I am here to tell you answer of this question but before that, we have to understand some points they are.
 
 1. We can run 32 bit operating system on 64 bit CPU.
 
@@ -37,7 +37,7 @@ Sample output on a 32-bit processor
 
 Fig.2 Using lscpu with grep
 
-If you observe the first output will say that your CPU supports both 32-bit as well as 64 bit operating systems. This indicates that its 64-bit processor from our above 4 rules. But in the second machine it says only 32-bit CPU mode which indicates its a 32 bit processor.
+If you observe the first output will say that your CPU supports both 32-bit as well as 64 bit operating systems. This indicates that its 64-bit processor from our above 4 rules. But in the second machine, it says only 32-bit CPU mode which indicates its a 32 bit processor.
 
 **Method II**
 
@@ -51,15 +51,15 @@ Sample output on a 32-bit processor when searching for lm(long mode) bit is set 
 
 Fig.3 Checking for long mode
 
-If you dont get any output that indicates its not a 64 bit processor.
+If you don't get any output that indicates its not a 64 bit processor.
 
 **How to check if my Operating system is a 64-bit or 32-bit?**
 
 Before knowing about this you should know about i386, i486 etc naming convention.
 
-**What is difference between i386, i486, i586, and i686 OS?**
+**What is the difference between i386, i486, i586, and i686 OS?**
 
-They are the names given by software industry to some softwares for different Intel architectures. If we say i386, its Intel 80386 processor, also known as the i386, or just 386, was a 32-bit microprocessor introduced by Intel in 1985. If I say i486 it is an Intel 80486, i586 it is a 80586 and i686 its a 80686 processor. In short they are called as x86 family which are of 32 bit processor. And for 64 bit OS you will get x86_64.
+They are the names given by the software industry to some softwares for different Intel architectures. If we say i386, its Intel 80386 processor, also known as the i386, or just 386, was a 32-bit microprocessor introduced by Intel in 1985. If I say i486 it is an Intel 80486, i586 it is a 80586 and i686 its a 80686 processor. In short, they are called as x86 family which are of 32 bit processor. And for 64 bit OS, you will get x86_64.
 
 Option 1: check with uname command if your OS is 32 bit or 64 bit.
 
