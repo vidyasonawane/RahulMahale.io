@@ -1,7 +1,7 @@
 +++
 date = "2013-12-10"
 title = "Check if you are running 32bit OS or 64 bit OS on your Linux Machine"
-tags = ["Linux"]
+tags = ["Linux", "Operating System"]
 categories = ["technical blogs"]
 +++
 

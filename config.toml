@@ -110,10 +110,15 @@ disqusShortname = "yourdiscussshortname"
             weight = 5
             url = "gallery/"
 
-            #[[languages.en.menu.main]]
-            #name = "/tags"
-            #weight = 6
-            #url = "tags/"
+            [[languages.en.menu.main]]
+            name = "/tags"
+            weight = 6
+            url = "tags/"
+
+            [[languages.en.menu.main]]
+            name = "/categories"
+            weight = 7
+            url = "categories/"
 
             
         

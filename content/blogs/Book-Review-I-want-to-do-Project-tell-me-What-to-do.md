@@ -1,7 +1,7 @@
 +++
 date = "2014-09-07"
 title = "Book Review: I want to do Project tell me What to do"
-tags = ["Books"]
+tags = ["Books","Open Source"]
 categories = ["social blogs"]
 +++
 
