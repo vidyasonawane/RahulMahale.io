@@ -95,11 +95,11 @@ and password is p@ssw0rd1
 
 now login and first change the admin password
 
-now there you can see your chef-server dashboard and all other tabs you can browse nodes,clients,roles etc.
+now there you can see your chef-server dashboard and all other tabs you can browse nodes, clients, roles etc.
 
 So we are not yet done we didn’t do any useful work using chef-server!
 
-So lets create an ec2 Instance but before that we need to install some gems
+So let's create an ec2 Instance but before that, we need to install some gems
 
 `gem install chef`
 
@@ -116,11 +116,11 @@ create a directory named .chef in home folder or you can simply run the followin
 
 `sudo chown -R $USER ~/.chef`
 
-After it regenerate the private key from the Chef WebUi of Admin and copy to the
+After it regenerates the private key from the Chef WebUI of Admin and copies to the
 
 `/etc/chef-server/admin.pem`
 
-also regenerate the private key of chef-validator client and copy it to
+also, regenerate the private key of chef-validator client and copy it to
 
 `/etc/chef-server/chef-validator.pem`
 
@@ -184,11 +184,11 @@ So use the following command to create your ec2 instance
 
 * `--region ap-southeast-1` If you want your instances to be deployed in any specific Amazon AWS region, add this parameter and the desired region
 
-* `-Z ap-southeast-1b` is the availability zone within your region (i.e. you have an existing disk volume you need to made available to this instance)
+* `-Z ap-southeast-1b` is the availability zone within your region (i.e. you have an existing disk volume you need to make available to this instance)
 
 after running the command it will create an ec2 instance and install the chef client
 
-also it will execute the recipes under the role test
+also, it will execute the recipes under the role test
 
 Managing EC2 Instances with knife
 

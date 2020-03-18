@@ -9,11 +9,11 @@ Hello Pi users,
 
 After investing much time than expected to run a cron job at reboot in Rapbian. finally, I am able to run the cron job at startup and able to execute the necessary commands at start-up.
 
-It is quite Obvious that `@reboot` will run the cron job at start up but in Raspbian and Debian (wheezy) it is not the case.
+It is quite Obvious that `@reboot` will run the cron job at startup but in Raspbian and Debian (wheezy) it is not the case.
 
-`@reboot` does not works as expected and it is a bug in debaian you can read it [here](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=635473)
+`@reboot` does not work as expected and it is a bug in debian you can read it [here](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=635473)
 
-So here are the steps to for running cron job at reboot :-
+So here are the steps to for running cron job at reboot:-
 
 * log in to your pi using ssh
 
@@ -21,7 +21,7 @@ So here are the steps to for running cron job at reboot :-
 
 * run the command `crontab -e`
 
-* put your command as `@reboot bash /path/to/file/run.sh` save it and get back on terminal
+* put your command as `@reboot bash /path/to/file/run.sh` save it and get back on the terminal
 
 * then start cron service by running `/etc/init.d/cron start`
 
