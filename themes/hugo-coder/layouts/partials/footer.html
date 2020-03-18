@@ -1,23 +1,14 @@
 <footer class="footer">
-  <section class="container">
-    {{ with .Site.Params.footercontent | safeHTML }}
-      <p>{{.}}</p>
-    {{ end }}
-    {{ if not .Site.Params.hideCopyright }}
-      {{ with .Site.Params.since }}
-        © {{ if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year }}
-      {{ else }}
-        © {{ now.Year }}
-      {{ end }}
-      {{ if .Site.Params.Author }} {{ .Site.Params.Author }} {{ end }}
-    {{ end }}
-    {{ if not .Site.Params.hideCredits }}
-      {{ if not .Site.Params.hideCopyright }} · {{ end }}
-      {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-    {{ end }}
-    {{ if .Site.Params.commit }}
-      {{ if or (not .Site.Params.hideCredits) (not .Site.Params.hideCopyright) }} · {{ end }}
-      [<a href="{{ .Site.Params.commit }}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]
-    {{ end }}
-  </section>
+    <section class="container">
+        {{ with .Site.Params.footercontent | safeHTML }}
+        <p>{{.}}</p>
+        {{ end }} {{ if not .Site.Params.hideCopyright }} {{ with .Site.Params.since }} © {{ if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year }} {{ else }} © {{ now.Year }} {{ end }} {{ if .Site.Params.Author }} {{ .Site.Params.Author }} {{ end }} {{ end }}
+        {{ if not .Site.Params.hideCredits }} {{ if not .Site.Params.hideCopyright }} · {{ end }} {{ i18n "" }}
+        <a href="https://github.com/RahulMahale"><i class="fab fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/rahul_mahale"><i class="fab fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/slashrahul/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://instagram.com/slash.rahul?igshid=1p2zzqo8l8ozt"><i class="fab fa-instagram" aria-hidden="true"></i></a> {{ end }} {{ if .Site.Params.commit }} {{ if or (not .Site.Params.hideCredits) (not .Site.Params.hideCopyright) }} · {{ end}}
+        [
+        <a href="{{ .Site.Params.commit }}{{ getenv " GIT_COMMIT_SHA " }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>] {{ end }}
+    </section>
 </footer>

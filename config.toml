@@ -25,7 +25,7 @@ disqusShortname = "yourdiscussshortname"
 
     dateformat = "January 2, 2006"
 
-    hideCredits = true
+    hideCredits = false
     hideCopyright = true
     since = 2019
 
@@ -68,17 +68,17 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
-    weight = 3
+    weight = 2
     url = "https://twitter.com/rahul_mahale"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
-    weight = 4
+    weight = 3
     url = "https://www.linkedin.com/in/slashrahul/"
 [[params.social]]
     name = "Instagram"
     icon = "fab fa-instagram"
-    weight = 5
+    weight = 4
     url = "https://instagram.com/slash.rahul?igshid=1p2zzqo8l8ozt"
 
   
@@ -120,4 +120,10 @@ disqusShortname = "yourdiscussshortname"
             weight = 5
             url = "gallery/"
 
+            #[[languages.en.menu.main]]
+            #name = "/tags"
+            #weight = 6
+            #url = "tags/"
+
+            
         
