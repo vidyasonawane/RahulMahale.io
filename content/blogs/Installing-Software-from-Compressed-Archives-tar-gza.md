@@ -9,11 +9,11 @@ Linux software applications in the form of source code are available at differen
 
 **Decompressing and Extracting Software in One Step:-**
 
-Though you can decompress and extract software in separate operations, you will find that the more common approach is to perform both actions with a single command. The tar utility provides decompression options you can use to have tar first decompress a file for you, invoking the specified decompression utility. The z option automatically invokes gunzip to unpack a .gz file, and the j option unpacks a .bz2 file. Use the Z option for .Z files For example, to combine the decompressing and unpacking operation for a .tar.gz file into one tar command, insert a z option into the option list, xzvf (see the later section “Extracting Software” for a discussion of these options). The next example shows how you can combine decompression and extraction in one step:
+Though you can decompress and extract software in separate operations, you will find that the more common approach is to perform both actions with a single command. The tar utility provides decompression options you can use to have tar first decompress a file for you, invoking the specified decompression utility. The z option automatically invokes gunzip to unpack a .gz file, and the j option unpacks a .bz2 file. Use the Z option for .Z files, For example, to combine the decompressing and unpacking operation for a .tar.gz file into one tar command, insert a z option into the option list, xzvf (see the later section “Extracting Software” for a discussion of these options). The next example shows how you can combine decompression and extraction in one step:
 
 ![targz](/images/targz.png)
 
-Fig. decompression and extraction comand
+Fig. decompression and extraction command
 
 `# tar xvzf htdig-3.1.6.tar.gz`
 
@@ -33,7 +33,7 @@ Files ending with .bin are self-extracting archives. Run the bin file as if it w
 
 **Selecting an Install Directory**
 
-Before you unpack the archive, move it to the directory where you want it. Source code packages are often placed in a directory like /usr/local/src, and binary packages go in designated directories. When source code files are unpacked, they generate their own subdirectories from which you can compile and install the software. Once the package is installed, you can delete this directory, keeping the original source code package file (.tar.gz). Packages that hold binary programs ready to run, like Java, are meant to be extracted in certain directories. Usually this is the /usr/local directory. Most archives, when they unpack, create a subdirectory named with the application name and its release, placing all those files or directories making up the software package into that subdirectory. In certain cases, the software package that contains precompiled binaries is designed to unpack directly into the system subdirectory where it will be used. For example, it is recommended that j2sdk-1.4.2-FCS-linux-i386.tar be unpacked in the /usr/local directory, where it will create a subdirectory called j2sdk-1.4.2. The /usr/local/j2sdk-1.4.2/bin directory holds the Java binary programs.
+Before you unpack the archive, move it to the directory where you want it. Source code packages are often placed in a directory like /usr/local/src, and binary packages go in designated directories. When source code files are unpacked, they generate their own subdirectories from which you can compile and install the software. Once the package is installed, you can delete this directory, keeping the original source code package file (.tar.gz). Packages that hold binary programs ready to run, like Java, are meant to be extracted in certain directories. Usually, this is the /usr/local directory. Most archives, when they unpack, create a subdirectory named with the application name and its release, placing all those files or directories making up the software package into that subdirectory. In certain cases, the software package that contains precompiled binaries is designed to unpack directly into the system subdirectory where it will be used. For example, it is recommended that j2sdk-1.4.2-FCS-linux-i386.tar be unpacked in the /usr/local directory, where it will create a subdirectory called j2sdk-1.4.2. The /usr/local/j2sdk-1.4.2/bin directory holds the Java binary programs.
 
 **Extracting Software**
 

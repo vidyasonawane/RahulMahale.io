@@ -58,13 +58,13 @@ So my all day was with excitement and enthusiasm and awesome talks I started my 
 
 My session was focused on
 
-Introduction to Raspbian — I started with an introduction about the Raspberry Pi board, how it differs from other boards and some of its use cases. Then I talked about Raspbian, a port of Debian to the Raspberry Pi, which is also the recommended operating system for the Raspberry Pi. I showed how to get Raspbian setup and then showed how to setup this Raspberry Pi as a WiFi router. There was an short Q&A session which I answered to best of my knowledge my presentation and how to is available at my github profile[1]
+Introduction to Raspbian — I started with an introduction about the Raspberry Pi board, how it differs from other boards and some of its use cases. Then I talked about Raspbian, a port of Debian to the Raspberry Pi, which is also the recommended operating system for the Raspberry Pi. I showed how to get Raspbian setup and then showed how to setup this Raspberry Pi as a WiFi router. There was a short Q&A session which I answered to best of my knowledge my presentation and how to is available at my Github profile[1]
 
 Links
 
 [ [1]https://github.com/RahulMahale/Talks-and-workshops/tree/master/DebConf](https://github.com/RahulMahale/Talks-and-workshops/tree/master/DebConf)
 
-Following are the some links where event was covered
+Following are some links where the event was covered
 
 * [http://in2015.mini.debconf.org/](http://in2015.mini.debconf.org/)
 

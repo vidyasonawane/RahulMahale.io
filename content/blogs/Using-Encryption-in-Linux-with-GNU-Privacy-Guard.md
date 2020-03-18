@@ -63,7 +63,7 @@ All Linux distribution sites have their own public keys available for download. 
 
 __Validating Keys__
 
-To manually check that a public key file was not modified in transit, you can check its fingerprint. This is a hash value generated from the contents of the key, much like a modification digest. Using the –fingerprint option, you can generate a hash value from  the key you installed, and then contact the sender and ask them what the hash value should really be. If they are not the same, you know the key was tampered with in transit.
+To manually check that a public key file was not modified in transit, you can check its fingerprint. This is a hash value generated from the contents of the key, much like a modification digest. Using the –fingerprint option, you can generate a hash value from  the key you installed, and then contact the sender and ask them what the hash value should be. If they are not the same, you know the key was tampered with in transit.
 
 `gpg –fingerprint rahulrmahale@yahoo`
 

@@ -7,7 +7,7 @@ categories = ["workshops"]
 
 +++
 
-In this introductory kubernetes 101 hands-on workshop you will learn about:
+In this introductory Kubernetes 101 hands-on workshop you will learn about:
 
 * Understanding Kubernetes terms and resources.
 * Provisioning and using Kubernetes clusters.
@@ -30,4 +30,4 @@ In this introductory kubernetes 101 hands-on workshop you will learn about:
  - Handling Zero downtime deployments.
  - Introduction to ingress controllers and ingress routing.
 
-contentes of workshop are [here](https://github.com/bigbinary/kubernetes-workshop).
+contents of the workshop are [here](https://github.com/bigbinary/kubernetes-workshop).

@@ -7,9 +7,9 @@ categories = ["talks"]
 
 +++
 
-Kubernetes has proved itself as a Production grade container orchestration tool as almost 71% companies in container world use it as a container orchestration tool. 
+Kubernetes has proved itself as a Production grade container orchestration tool as almost 71% of companies in the container world use it as a container orchestration tool. 
 
-Planning to use Kubernetes in production for cloud-native apps ? Concerned about how to integrate a Kubernetes cluster into your existing infrastructure!! This talk will brief you through some of the common challenges when deploying Kubernetes cluster on Public cloud like AWS and how to address those challenges.
+Planning to use Kubernetes in production for cloud-native apps? Concerned about how to integrate a Kubernetes cluster into your existing infrastructure!! This talk will brief you through some of the common challenges when deploying Kubernetes cluster on Public cloud like AWS and how to address those challenges.
 
 We will show on how to provision and deploy production ready kubernetes cluster using tools like Kops. Some of the points I will try to cover:-
 
@@ -34,4 +34,4 @@ We will show on how to provision and deploy production ready kubernetes cluster 
 * Logging and Monitoring of applications.
 
 
-At the end of the talk attendees will be able to understand on how to deploy kubernetes production ready cluster. And best practices to deploy apps on Kubernetes. video of talk is [here](https://www.youtube.com/watch?v=xlYvWwdjXNE)
+At the end of the talk, attendees will be able to understand how to deploy kubernetes production ready cluster. And best practices to deploy apps on Kubernetes. video of the talk is [here](https://www.youtube.com/watch?v=xlYvWwdjXNE)

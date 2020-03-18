@@ -5,7 +5,7 @@ tags = ["Disk Partition","Linux"]
 categories = ["technical blogs"]
 +++
 
-__Disk utility__ can also be used to create new partitions and prepare them for use. Once a partition has been created, it must be formatted with a file system before it can be used. The standard file system used in Red Hat Enterprise Linux is ext4,the _Fourth Extended File system_.
+__Disk utility__ can also be used to create new partitions and prepare them for use. Once a partition has been created, it must be formatted with a file system before it can be used. The standard file system used in Red Hat Enterprise Linux is ext4, the _Fourth Extended File system_.
 
 In order to use the file system, we need to associate it with a _mount point_, and _empty directory_ on a file system that is already available. Then the contents of that file system can be browsed as if they are the contents of the mount point directory. This is called as _mounting the file system on the mount point_.
 
@@ -25,11 +25,11 @@ Once this is set, root can run `mount /data` to mount the file system above and 
 
 1. Log into GNOME as a regular user.
 
-2. Use __Disk Utility__ to create a partition. Enter the root password when prompted by the _Authenticaion is required to create a partition_ dialog.
+2. Use __Disk Utility__ to create a partition. Enter the root password when prompted by the _Authentication is required to create a partition_ dialog.
 
 3. Format the file system and assign it a label.
 
-4. Test the file system by mounting it with __Disk Utility__ (It will be mounted on the directoy `/media/your-label`.)
+4. Test the file system by mounting it with __Disk Utility__ (It will be mounted on the directory `/media/your-label`.)
 
 5. Open a shell prompt with _Application_ —> _System Tools_ —> _Terminal_.
 

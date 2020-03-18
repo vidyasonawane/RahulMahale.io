@@ -60,11 +60,6 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-github"
     weight = 1
     url = "https://github.com/RahulMahale"
-#[[params.social]]
-#    name = "Gitlab"
-#    icon = "fab fa-gitlab"
-#    weight = 2
-#    url = "https://gitlab.com/johndoe/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
@@ -100,20 +95,10 @@ disqusShortname = "yourdiscussshortname"
             weight = 2
             url = "blogs/"
 
-            #[[languages.en.menu.main]]
-            #name = "Social Posts"
-            #weight = 3
-            #url = "social/"
-
             [[languages.en.menu.main]]
             name = "/Talks"
             weight = 3
             url = "talks/"
-
-            #[[languages.en.menu.main]]
-            #name = "/Talks"
-            #weight = 
-            #url = "talks/"
 
             [[languages.en.menu.main]]
             name = "/Gallery"

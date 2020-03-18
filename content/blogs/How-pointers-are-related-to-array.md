@@ -11,7 +11,7 @@ In C and C++ programming language Pointers and Arrays are the hearts of develope
 
 __Pointer__
 
-Pointer is a variable used for addressing; pointer variable also stores the    address of another variable.
+A Pointer is a variable used for addressing; pointer variable also stores the    address of another variable.
 
 Syntax: datatype * variablename; 
 
@@ -19,17 +19,17 @@ Example: int *p;
 
 __Array__
 
-Array is collection of similar type of elements. It stores the elements in contiguous memory locations, Moreover arrays can be one dimensional 2-dimensional and multi-dimensional.
+An array is a collection of similar type of elements. It stores the elements in contiguous memory locations, Moreover arrays can be one dimensional 2-dimensional and multi-dimensional.
 
 Syntax: datatype variablename[size];
 
 Example: int a[10];
 
-After having known the arrays and pointers basically now we are here to about to cut the cake Pointers and arrays.
+After having known the arrays and pointers, now we are here to about to cut the cake Pointers and arrays.
 
 __POINTERS AND ARRAYS__
 
-We must have used the arrays and pointers separately in the most of the programming practice. I will focus on using arrays with pointers.
+We must have used the arrays and pointers separately in most of the programming practice. I will focus on using arrays with pointers.
 
 When I say arrays with pointers, technically they can be used in two ways:
 
@@ -51,11 +51,11 @@ Above example shows the pointer to an array, here a[10] is an integer type array
 
 Now here a question arises, how can I make a pointer to an array? So that I access the members of the array by using the pointer in a separate function. I’m wondering because I have an array I have to access in functions other than the one it was defined in, but I need it to be defined in that function, and not globally, because the size can depend on the user input. That should let me access the data in other functions right? If so, how do I do that and then access the objects from the pointer?
 
-In above example p= a; points to the a[0]location .
+In the above example p= a; points to the a[0] location.
 
 and p= p+1 will point the next location of a[10] that is a[1]
 
-So we can increment and decrement the pointer variable so we can directly access the array elements fast. Also we can scan the array elements by a[i], but assigning array to a pointer a[i] is similar to a+i.
+So we can increment and decrement the pointer variable so we can directly access the array elements fast. Also, we can scan the array elements by a[i], but assigning an array to a pointer a[i] is similar to a+i.
 
 Let us consider a sample example to illustrate it
 
@@ -77,7 +77,7 @@ Following figure describes the dereferencing with pointer arithmetic:
 
 ![pointers](/images/pointers.jpg)
  
-Thus in above example we have scanned and printed and array by a+i and *(a+i ) because compiler treats a+i as &a[i] and *(a+i) as a[i]. Moreover we can use this notations in functions and while calling them we can just pass the pointer variable as a parameter or an original variable with the address (&).
+Thus in above example we have scanned and printed and array by a+i and *(a+i ) because compiler treats a+i as &a[i] and *(a+i) as a[i]. Moreover, we can use these notations in functions and while calling them we can just pass the pointer variable as a parameter or an original variable with the address (&).
 
 Let us consider another example to clear the idea.
 
@@ -103,4 +103,4 @@ Let us consider another example to clear the idea.
 
 In the above example we have an array of four elements, we are passing that array to function through assigning it to a pointer variable p. this variable stores an address of array a[4], later in function sample we are catching the arrays address in the array variable b[ ].then we are incrementing the b[i] by one and returning it to main( ) and in main ( ) we are just printing the value of a[i] so output is 2, 3, 4, 5.
 
-With above two examples, I hope you might be clear with the pointer to array with one dimensional array.In general we can say that the pointer to array is nothing but storing the base address of the array.
+With the above two examples, I hope you might be clear with the pointer to an array with one-dimensional array. In general, we can say that the pointer to an array is nothing but storing the base address of the array.

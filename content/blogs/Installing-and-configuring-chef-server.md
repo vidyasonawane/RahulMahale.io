@@ -11,7 +11,7 @@ Hello,
 
 This is my first post on automation and configuration management and that too on Chef.
 
-I personally invested a lot time to get going with Chef, because it is bit confusing for newbies to catch the pace, after searching and reading a lot I choose a Open Source Chef Server to use and I started with the installation.
+I personally invested a lot of time to get going with Chef, because it is a bit confusing for newbies to catch the pace, after searching and reading a lot I choose an Open Source Chef Server to use and I started with the installation.
 
 The difference between Hosted Chef Server and Open-source Chef Server can be read [here.](https://blog.chef.io/there-is-one-chef-server-and-it-is-open-source/) 
 
@@ -31,17 +31,17 @@ For Redhat and Centos get it from
 
 https://downloads.chef.io/chef-server/redhat/#/
 
-select the right architecture of your system and download the setup to your local storage,you can know the architecture of your Linux system by the command ```lscpu | grep Arch```
+select the right architecture of your system and download the setup to your local storage, you can know the architecture of your Linux system by the command ```lscpu | grep Arch```
 
 After downloading the setup move it to the server where you are willing to install and configure the Chef Server.
 
 **Before starting there are some important considerations to note**
 
-* If you have PostgreSQL already installed and running on default port 5432, I would recommend you to change the port of PostgreSQL other than 5432 and restart the PostgreSQL server. This hack worked for me for successful installation.
+* If you have PostgreSQL already installed and running on default port 5432, I would recommend you to change the port of PostgreSQL other than 5432 and restart the PostgreSQL server. This hack worked for me for a successful installation.
 
 * Set your host-name to resolvable DNS, you can see your hostname by the ```hostname -f``` and you can change it by editing the file ```/etc/hosts```
 
-* In your security groups or Firewall add an inbound rule for port number 9462. because the chef-server 11 does not run webui on 4000 and 4040, though I added an Inbound rule for them, add 5432 and 22 for ssh access.
+* In your security groups or Firewall add an inbound rule for port number 9462. because the chef-server 11 does not run webUI on 4000 and 4040, though I added an Inbound rule for them, add 5432 and 22 for ssh access.
 
 After doing all three preliminary steps then go to the directory where you configured your chef-server setup .deb file and run the following command to install the open-source chef-server, in my case it was,
 
@@ -87,7 +87,7 @@ Now once again reconfigure and restart chef-server by running following commands
 
 Now go to browser and enter the IP or domain of your server you may get SSL Certificate error because it is not yet configured, so add the exception and proceed further.
 
-you will be redirected to the Chef-server webui Login Page
+you will be redirected to the Chef-server webUI Login Page
 
 enter the default username as admin
 

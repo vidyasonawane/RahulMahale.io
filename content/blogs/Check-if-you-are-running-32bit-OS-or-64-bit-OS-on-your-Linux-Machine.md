@@ -5,7 +5,9 @@ tags = ["Linux"]
 categories = ["technical blogs"]
 +++
 
-Hi, Linux Users I will elaborate some basic tricks to know your CPU configuration on your Linux System. Many times I have come across a unique question from Linux Users that how should I know that I am using 32 bit CPU/OS or 64 bit CPU/OS? Definitely, I am here to tell you answer of this question but before that, we have to understand some points they are.
+Hi, Linux Users
+
+I will elaborate some basic tricks to know your CPU configuration on your Linux System. Many times I have come across a unique question from Linux Users that how should I know that I am using 32 bit CPU/OS or 64 bit CPU/OS? Definitely, I am here to tell you answer of this question but before that, we have to understand some points they are.
 
 1. We can run 32 bit operating system on 64 bit CPU.
 
