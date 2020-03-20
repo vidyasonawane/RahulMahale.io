@@ -25,11 +25,11 @@ Get the copy of chef-server from the following links
 
 For Ubuntu get it from
 
-https://downloads.chef.io/chef-server/ubuntu/#/
+https://downloads.chef.io/chef-server/#ubuntu
 
 For Redhat and Centos get it from
 
-https://downloads.chef.io/chef-server/redhat/#/
+https://downloads.chef.io/chef-server/#el
 
 select the right architecture of your system and download the setup to your local storage, you can know the architecture of your Linux system by the command ```lscpu | grep Arch```
 
