@@ -50,6 +50,7 @@ disqusShortname = "yourdiscussshortname"
     # Custom JS
     custom_js = []
 
+
 [taxonomies]
   category = "categories"
   series = "series"
@@ -81,9 +82,8 @@ disqusShortname = "yourdiscussshortname"
     weight = 5
     url = "mailto:rahul.mahale123@gmail.com"
 
+
   
-
-
 [languages]
     [languages.en]
         languagename = "English"
@@ -110,15 +110,15 @@ disqusShortname = "yourdiscussshortname"
             weight = 5
             url = "gallery/"
 
-            [[languages.en.menu.main]]
-            name = "/tags"
-            weight = 6
-            url = "tags/"
+            #[[languages.en.menu.main]]
+            #name = "/tags"
+            #weight = 6
+            #url = "tags/"
 
-            [[languages.en.menu.main]]
-            name = "/categories"
-            weight = 7
-            url = "categories/"
+            #[[languages.en.menu.main]]
+            #name = "/categories"
+            #weight = 7
+            #url = "categories/"
 
             
         

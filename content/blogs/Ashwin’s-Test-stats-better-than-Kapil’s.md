@@ -2,7 +2,7 @@
 date = "2013-11-08"
 title = "[COMPARISON] Ashwin’s Test stats better than Kapil’s"
 tags = ["cricket"]
-categories = ["social blogs"]
+categories = ["Social blogs"]
 +++
 
 __At the 17-Test mark, Ashwin’s batting average over 40 and bowling average under 30 is up with the very best all-rounders.__

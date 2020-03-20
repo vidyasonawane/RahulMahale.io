@@ -3,7 +3,7 @@ date = "2017-11-07"
 title = "Talk at DevOpsDays Capetown(South Africa) on “Deploying production ready kubernetes clusters: Lessons learnt”"
 slug = "" 
 tags = []
-categories = ["talks"]
+categories = ["Talks"]
 
 +++
 

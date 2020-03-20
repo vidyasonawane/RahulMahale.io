@@ -2,7 +2,7 @@
 date = "2013-08-27"
 title = "Databases On Linux"
 tags = ["Database Management System","Linux"]
-categories = ["technical  blogs"]
+categories = ["Technical  blogs"]
 
 +++
 **Database Management Systems**

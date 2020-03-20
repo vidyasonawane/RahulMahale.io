@@ -2,7 +2,7 @@
 date = "2013-08-22"
 title = "How pointers are related to array ?"
 tags = ["Pointers","Array"]
-categories = ["technical blogs"]
+categories = ["Technical blogs"]
 +++
 
 __Part 1:__

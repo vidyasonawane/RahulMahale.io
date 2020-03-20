@@ -3,7 +3,7 @@ date = "2018-08-10"
 title = "Kubernetes workshop at BigBinary, Pune"
 slug = "" 
 tags = []
-categories = ["workshops"]
+categories = ["Workshops"]
 
 +++
 

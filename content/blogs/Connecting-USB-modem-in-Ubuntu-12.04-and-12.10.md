@@ -2,7 +2,7 @@
 date = "2013-08-14"
 title = "[Solved]Connecting USB modem in Ubuntu 12.04 and 12.10."
 tags = ["Ubuntu","Linux","USB Modem"]
-categories = ["technical blogs"]
+categories = ["Technical blogs"]
 +++
 
 Hi Ubuntu Users, 

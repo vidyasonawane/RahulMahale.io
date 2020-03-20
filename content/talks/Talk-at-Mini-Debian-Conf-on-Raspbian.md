@@ -3,7 +3,7 @@ date = "2015-04-04"
 title = "Talk at Mini-Debian Conf on Raspbian"
 slug = "Talk at Mini-Debian Conf on Raspbian" 
 tags = []
-categories = ["workshops"]
+categories = ["Workshops"]
 
 +++
 

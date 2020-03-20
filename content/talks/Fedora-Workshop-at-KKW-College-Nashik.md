@@ -3,7 +3,7 @@ date = "2014-12-08"
 title = "[Event-Report] One day Fedora Workshop Conducted at KKW College Nashik."
 slug = "[Event-Report] One day Fedora Workshop Conducted at KKW College Nashik." 
 tags = []
-categories = ["workshops"]
+categories = ["Workshops"]
 
 +++
 

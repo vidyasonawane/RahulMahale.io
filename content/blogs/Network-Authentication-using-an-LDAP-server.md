@@ -2,7 +2,7 @@
 date = "2013-12-10"
 title = "Network Authentication using an LDAP server"
 tags = ["LDAP"]
-categories = ["technical blogs"]
+categories = ["Technical blogs"]
 +++
 
 Hi Techies,

@@ -3,7 +3,7 @@ date = "2014-07-11"
 title = "One day Fedora WorkShop at SVCOE Junnar, Pune"
 slug = "One day Fedora WorkShop at SVCOE Junnar, Pune" 
 tags = []
-categories = ["workshops"]
+categories = ["Workshops"]
 
 +++
 

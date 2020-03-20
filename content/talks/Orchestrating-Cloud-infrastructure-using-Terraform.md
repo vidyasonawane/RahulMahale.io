@@ -3,7 +3,7 @@ date = "2016-03-19"
 title = "Talk at FOSSASIA Singapore on “Orchestrating Cloud infrastructure using Terraform”"
 slug = "" 
 tags = []
-categories = ["talks"]
+categories = ["Talks"]
 
 +++
 

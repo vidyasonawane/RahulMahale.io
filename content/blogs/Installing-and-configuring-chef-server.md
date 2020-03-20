@@ -3,7 +3,7 @@ date = "2014-12-17"
 title = "Installing and configuring Open-source chef-server on Ubuntu and Managing AWS ec2 instances using knife"
 slug = "Installing and configuring Open-source chef-server on Ubuntu and Managing AWS ec2 instances using knife" 
 tags = ["Chef","Automation"]
-categories = ["technical blogs"]
+categories = ["Technical blogs"]
 series = ["Chef","Ubuntu","AWS","EC2","knife"]
 +++
 
