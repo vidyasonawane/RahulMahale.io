@@ -39,4 +39,31 @@ A personal website of Rahul Mahale.
         
 * To change the profile picture
   - change the image `static\images\rahulMahale.jpg`
+
+
+## Steps to run the website locally
+1. Clone the repository
+2. cd < repository >
+3. Run the command: `hugo serve`
+
+The website will be running on `http://localhost:1313`
+
+* To build the site, run the command: `hugo`
+  - It will create a public folder.
+
+
+## Deploying on [netlify](https://www.netlify.com/)
+  1.  Create new github repository
+  2.  Push the website on git
+  3.  Go to [netlify](https://www.netlify.com/)
+    
+    i.  sign in with github
+    ii. Go to create a new site
+    iii.  Connect to github, choose a repository
+    iv. Choose the correct build options
+      1) Owner :  your name
+      2) Branch to deploy: master
+      3) Basic build command :  hugo
+      4) Publish directory : public
+     v. Click on deploy site
  
